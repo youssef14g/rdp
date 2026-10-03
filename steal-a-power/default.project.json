@@ -1,0 +1,25 @@
+{
+  "name": "steal-a-power",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "PowerConfig": { "$path": "src/shared/PowerConfig.lua" }
+    },
+    "ServerScriptService": {
+      "Main": { "$path": "src/server/Main.server.lua" },
+      "DataService": { "$path": "src/server/DataService.lua" },
+      "MapBuilder": { "$path": "src/server/MapBuilder.lua" },
+      "PowerService": { "$path": "src/server/PowerService.lua" },
+      "CombatService": { "$path": "src/server/CombatService.lua" },
+      "Abilities": { "$path": "src/server/Abilities.lua" },
+      "StealService": { "$path": "src/server/StealService.lua" },
+      "DummyService": { "$path": "src/server/DummyService.lua" }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "ClientMain": { "$path": "src/client/ClientMain.client.lua" },
+        "UI": { "$path": "src/client/UI.lua" }
+      }
+    }
+  }
+}
